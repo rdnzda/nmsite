@@ -29,13 +29,13 @@ export default function Home() {
         quantity={100}
       />
       <h1
-        className="py-3.5 px-0.5 z-10 text-7xl text-white bg-black cursor-default animate-title font-display sm:text-8xl md:text-8xl whitespace-nowrap bg-clip-text font-bold tracking-tight drop-shadow-md transition-all duration-1000"
+        className="py-3.5 px-0.5 z-10 text-5xl text-white bg-black cursor-default animate-title font-display sm:text-8xl md:text-8xl whitespace-nowrap bg-clip-text font-bold tracking-tight drop-shadow-md transition-all duration-1000"
       >
         rdnzda
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:hidden animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="sm:my-4 my-2 text-center animate-fade-in">
+      <div className="sm:my-4 my-2 mx-5 text-center animate-fade-in">
         <h2 className="text-xs sm:text-sm text-zinc-500 ">
           Hi my name is Redean Akunzada, I am a fullstack web developer.
         </h2>
