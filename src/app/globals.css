@@ -7,3 +7,19 @@
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
   }
 } 
+
+html,
+body {
+  height: -webkit-fill-available;
+}
+
+.main-container {
+  min-height: 100vh;
+  height: 100%;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .main-container {
+    min-height: -webkit-fill-available;
+  }
+}
