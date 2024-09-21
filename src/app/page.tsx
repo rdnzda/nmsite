@@ -8,7 +8,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black relative"> {/* Ajout de 'relative' ici */}
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden"> {/* Ajout de 'relative' ici */}
       <nav className="absolute bottom-0 mb-4 animate-fade-in w-full"> {/* Modifications ici */}
         <ul className="flex items-center justify-center md:gap-4 gap-5">
           {navigation.map((item) => (
