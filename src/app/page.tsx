@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Particles from "./components/particles";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -24,10 +23,6 @@ export default function Home() {
         </ul>
       </nav>
       <div className="hidden w-screen h-px animate-glow md:hidden animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
-      />
       <h1
         className="py-3.5 px-0.5 z-10 text-5xl text-white bg-black cursor-default animate-title font-display sm:text-8xl md:text-8xl whitespace-nowrap bg-clip-text font-bold tracking-tight drop-shadow-md transition-all duration-1000"
       >
