@@ -27,13 +27,6 @@ export const metadata: Metadata = {
       "Akunzada Redean full stack developper.",
     url: "https://rdnzda.com",
     siteName: "rdnzda.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
     locale: "fr-FR",
     type: "website",
   },
